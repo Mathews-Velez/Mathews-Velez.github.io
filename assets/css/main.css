@@ -4,14 +4,21 @@
   user-select: none;
 }
 
+p{
+  color: #bcbcbc;
+  font-family: 'Montserrat', sans-serif;
+  border-color: #06ab8e;
+  padding: 1rem;
+  font-size:large;
+}
 body{
-  background-color:black;
+  background-color: black;
 }
 
 .topbottomtext{
   color: #bcbcbc;
   margin:1px;
-  line-height: 0.5rem;
+  line-height: 2rem;
   font-size: min(3vw,7rem);
   font-family: 'Montserrat', sans-serif;
   
@@ -20,7 +27,7 @@ body{
 /*middleText class for text*/
 .middleText h1{
   color: #37f5d2;
-  font-size: min(6vw,10rem);
+  font-size: min(5vw,8rem);
   margin:1px;
   font-family: 'Share Tech', sans-serif;
   height:100%;
@@ -69,7 +76,9 @@ body{
 
 /* Middle column */
 .column.middle {
-  flex: 3;
+  border-width: 0.5rem;
+  border-color: antiquewhite;
+  flex: 5;
   color: #3c444c;
   margin:1px;
 }
