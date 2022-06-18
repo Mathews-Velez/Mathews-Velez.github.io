@@ -85,8 +85,8 @@ class Header extends HTMLElement {
                 ></path></svg
             ></a>
           </li>
-          <li><a href="projects.html">/projects</a></li>
           <li><a href="contact.html">/contact</a></li>
+          <li><a href="work.html">/work</a></li>
           <li><a href="about.html">/about</a></li>
           <li id="root"><a href="index.html">/root</a></li>
         </ul>
